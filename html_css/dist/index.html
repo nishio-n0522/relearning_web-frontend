@@ -7,6 +7,14 @@
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <title>HTML-CSS テスト</title>
 
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
     <!-- android用設定 -->
     <meta name="application-name" content="HTML勉強用" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -42,16 +50,64 @@
       </section>
       <section>
         <h2>利点</h2>
-        <ul>
-          <li>検索エンジン最適化（SEO）に役立つ</li>
-          <li>アクセシビリティを向上させる</li>
+        <ol type="i">
+          <li value="100">検索エンジン最適化（SEO）に役立つ</li>
+          <li value="8">アクセシビリティを向上させる</li>
           <li>保守性が向上する</li>
           <li>将来性がある</li>
-        </ul>
+        </ol>
+      </section>
+      <section class="test">
+        <p>
+          <a href="http://google.co.jp/" target="_blank" download>あっち</a>
+          <strong>いけ</strong>
+        </p>
+        <p>
+          Can you come to <em><em>my</em> party</em> on <em>Friday</em>?
+        </p>
+        <small>@ ACTIVE, All rights reserved.</small>
+        <p><s>定価: 1,200円</s></p>
+        <p>定価: 800円</p>
+        <p>ロボット三原則はSFの「<cite>I, Robot</cite>」で登場します。</p>
+        <p>
+          <ruby><rb>便</rb><rt>べん</rt><rb>利</rb><rt>り</rt></ruby
+          >なホームアシスタント
+        </p>
+        <p>変数<var>x</var>, 変数y</p>
+        <p>
+          <samp>$ cd ...</samp>
+          と表示されることがあります。
+        </p>
+        <p>
+          <kbd>Ctrl</kbd> + <kbd>C</kbd>
+          と表示されることがあります。
+        </p>
+        <p>変数<var>x</var>, 変数y</p>
+        <blockquote>
+          <p contenteditable="true">
+            クラウドコンピューティングは、共有の構成可能なコンピューティングリソース（ネットワーク、サーバー、ストレージ、アプリケーション、サービス）の集積に、
+            <mark style="background-color: orangered"
+              >どこからでも、簡便に、必要に応じて、ネットワーク経由でアクセスすることを可能にする</mark
+            >
+            モデルであり、最小限の利用手続きまたはサービスプロバイダとのやりとりで速やかに割り当てられ提供されるものである。
+          </p>
+        </blockquote>
+        <p>ABCDEFGHIJKL<wbr />MNOPQRS<wbr />TUVWXYZ</p>
+      </section>
+      <section>
+        <details open>
+          <summary>フォトデータ</summary>
+          <dl>
+            <dt>ファイル名</dt>
+            <dd>office.jpg</dd>
+            <dt>大きさ</dt>
+            <dd>1500x1000ピクセル</dd>
+          </dl>
+        </details>
       </section>
     </main>
     <aside>
-      <h2>関連情報</h2>
+      <h2 draggable="true">関連情報</h2>
       <ul>
         <li><a href="#">HTMLのチュートリアル</a></li>
         <li><a href="#">セマンティックHTMLのガイド</a></li>
@@ -61,5 +117,10 @@
     <footer>
       <p>&copy; 2024 example.com</p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
