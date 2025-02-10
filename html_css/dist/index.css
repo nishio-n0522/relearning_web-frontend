@@ -3,3 +3,19 @@
 h1 {
   color: orange;
 }
+
+li:nth-of-type(2) {
+  color: olive;
+}
+
+:lang(en) {
+  border: solid 1px red;
+}
+
+#test-var:target {
+  background-color: yellow;
+}
+
+::selection {
+  background-color: aqua;
+}
