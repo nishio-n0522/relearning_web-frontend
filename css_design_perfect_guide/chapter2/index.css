@@ -1,0 +1,111 @@
+/* ===== ベースCSS ===== */
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== レイアウトCSS ===== */
+.ly_cont {
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ===== モジュールCSS ===== */
+.bl_media {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.bl_media__rev {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.bl_media_imageWrapper {
+  flex: 1 1 25%;
+  margin-right: 3.33333%;
+}
+
+.bl_media__rev .bl_media_imageWrapper {
+  margin-right: 0;
+}
+
+.bl_media_imageWrapper__bordered {
+  padding: 2px;
+  border: 1px solid #aaa;
+}
+
+.bl_media_imageWrapper img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.bl_media_body {
+  flex: 1 1 68.33333%;
+}
+
+.bl_media__rev .bl_media_body {
+  margin-right: 3.33333%;
+}
+
+.bl_media_title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bl_media_body > span {
+  color: #555;
+  font-size: 14px;
+}
+
+.subTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #555;
+}
+
+/* ===== エレメントCSS ===== */
+.el_btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  margin: 10px;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  transition: 25s;
+}
+
+.hp_warning {
+  background-color: #f1de00;
+  color: #222;
+}
+
+.hp_bxshNone {
+  box-shadow: none;
+}
+
+.hp_textBlack {
+  color: #222;
+}
+
+.hp_textWhite {
+  color: #fff;
+}
