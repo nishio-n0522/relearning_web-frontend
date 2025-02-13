@@ -1,7 +1,37 @@
 body {
-  background-color: aqua;
+  box-sizing: border-box;
+  background-color: #fff;
 }
 
 ul li {
   margin-bottom: 10px;
+}
+
+#header {
+  width: 1080px;
+}
+
+#main {
+  width: 1080px;
+}
+
+#footer {
+  width: 1080px;
+}
+
+.l-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.l-narrow #header {
+  width: 960px;
+}
+
+.l-narrow #main {
+  width: 960px;
+}
+
+.l-narrow #footer {
+  width: 960px;
 }
