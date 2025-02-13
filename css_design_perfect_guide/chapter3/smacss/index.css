@@ -1,0 +1,182 @@
+/* ベースCSS */
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* レイアウトCSS */
+#header {
+  width: 1080px;
+  margin: 0px auto;
+  background-color: #eee;
+}
+
+.l-header-first-row {
+  max-width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: right;
+}
+
+.l-header-second-row {
+  border-bottom: 1px solid #555;
+}
+
+.l-narrow #header {
+  width: 960px;
+}
+
+#main {
+  width: 1080px;
+  margin: 5px auto;
+  background-color: #fff;
+}
+
+.l-narrow #main {
+  width: 960px;
+}
+
+#footer {
+  width: 1080px;
+  margin: 10px auto;
+  border-top: 1px solid #000;
+  background-color: #eee;
+}
+
+.l-narrow #footer {
+  width: 960px;
+}
+
+/* モジュールcss */
+.headermenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.headermenu > li {
+  list-style-type: none;
+}
+
+.headermenu > li > a {
+  text-decoration: none;
+}
+
+.media {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.media > figure {
+  flex: 1 1 25%;
+  margin-right: 3.33333%;
+}
+
+.media img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.media-body {
+  flex: 1 1 68.33333%;
+}
+
+.media > h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.media > h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #555;
+}
+
+.media-sub-text {
+  color: #555;
+  font-size: 14px;
+}
+
+.btn {
+  display: inline-block;
+  width: 300px;
+  padding: 20px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.25s;
+  border-width: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  color: #fff;
+  background-color: #dd742c;
+}
+
+.btn.btn-small {
+  width: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.btn.btn-long {
+  width: 160px;
+}
+
+.inputtext {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.is-inputtext-error {
+  border-color: #d40152;
+}
+
+.is-inputtext-error::placeholder {
+  color: #d40152;
+}
+
+.tabnav {
+  display: flex;
+}
+
+.tabnav > li {
+  list-style-type: none;
+  border-top: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.tabnav > li:first-child {
+  border-left: 1px solid #aaa;
+}
+
+.tabnav > li > a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.is-tabnav-active {
+  background-color: #0093ff;
+}
+
+.is-tabnav-active > a {
+  pointer-events: none;
+  color: #fff;
+}
+
+.tabnav > li:hover:not(.is-tabnav-active) {
+  background-color: aquamarine;
+}
