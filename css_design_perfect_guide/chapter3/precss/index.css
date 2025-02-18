@@ -78,17 +78,17 @@ footer {
 }
 
 .el_btn {
+  display: inline-block;
   width: 300px;
-}
-
-.el_btn.el_btn__w200 {
-  width: 200px;
-}
-
-@media screen and (max-width: 768px) {
-  .el_btn.el_btn__w200 {
-    width: 100px;
-  }
+  padding: 20px 10px;
+  color: #fff;
+  background-color: darkorange;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border: none;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.25s;
 }
 
 .el_btn.el_btn__s {
@@ -97,6 +97,10 @@ footer {
 
 @media screen and (max-width: 768px) {
   .el_btn.el_btn__s {
-    width: 100px;
+    width: 100%;
   }
+}
+
+.hp_bold {
+  font-weight: bold !important;
 }
