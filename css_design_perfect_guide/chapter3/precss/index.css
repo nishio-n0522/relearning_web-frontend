@@ -1,0 +1,102 @@
+/* リセットcss */
+figure {
+  margin-block: 0rem;
+  margin-inline: 0px;
+}
+
+p {
+  margin-block: 0rem;
+  margin-inline: 0px;
+}
+
+/* ベースcss */
+html {
+  font-family: serif;
+}
+
+body {
+  background-color: white;
+}
+
+footer {
+  border-top: 1px solid #222;
+}
+
+/* レイアウトcss */
+.ly_card_col_1 {
+  width: 31%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ly_card_col_3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* モジュールcss */
+.bl_card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.bl_card_imgWrapper {
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.bl_card_imgWrapper img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.bl_card_body {
+  padding: 10px;
+}
+
+.bl_card_ttl {
+  margin-bottom: 5px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.bl_card_txt {
+  color: #777;
+}
+
+.bl_3colCardUnit {
+  display: flex;
+}
+
+.bl_3colCardUnit_item {
+  width: 31.707%;
+  margin-right: 2.43902%;
+}
+
+.el_btn {
+  width: 300px;
+}
+
+.el_btn.el_btn__w200 {
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .el_btn.el_btn__w200 {
+    width: 100px;
+  }
+}
+
+.el_btn.el_btn__s {
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .el_btn.el_btn__s {
+    width: 100px;
+  }
+}
