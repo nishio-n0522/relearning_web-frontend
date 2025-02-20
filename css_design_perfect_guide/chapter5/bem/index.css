@@ -84,3 +84,117 @@ img {
     margin-bottom: 60px;
   }
 }
+
+.btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+.btn--arrow-right {
+  position: relative;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+.btn--arrow-right::after {
+  content: "\f061";
+  position: absolute;
+  top: 50%;
+  right: 0.83em;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  transform: translateY(-50%);
+}
+
+.btn--large {
+  width: 340px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.375rem;
+}
+
+.btn--warning {
+  background-color: #f1de00;
+  color: #222;
+}
+
+.btn--warning:focus,
+.btn--warning:hover {
+  border-color: #f1de00;
+  color: #222;
+}
+
+.btn--rounded {
+  border-radius: 10px;
+}
+
+.rounded-btn {
+  display: inline-block;
+  width: 235px;
+  max-width: 100%;
+  padding: 15px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  border-bottom-color: #d40152;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.rounded-btn:focus,
+.rounded-btn:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+.before-icon-btn {
+  position: relative;
+  display: inline-block;
+  padding: 0.2em 0.3em;
+  border: 1px solid currentColor;
+  color: #e25c00;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.before-icon-btn:focus,
+.before-icon-btn:hover {
+  background-color: #e25c00;
+  color: #fff;
+}
+
+.before-icon-btn::before {
+  display: inline-block;
+  margin-right: 0.5em;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.before-icon-btn--download::before {
+  content: "\f019";
+}
+
+.before-icon-btn--zoom::before {
+  content: "\f00e";
+}
