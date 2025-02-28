@@ -1,0 +1,62 @@
+/* ベースcss */
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: #0069ff;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+/* レイアウトcss */
+.header {
+  padding-top: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.header__inner {
+  max-width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* モジュールcss */
+.media {
+  display: flex;
+  align-items: center;
+}
+.media__img-wrapper {
+  flex: 0 1 27.58333%;
+  margin-right: 3.33333%;
+}
+.media__img {
+  width: 100%;
+}
+.media__body {
+  flex: 1;
+}
+.media__body > *:last-child {
+  margin-bottom: 0;
+}
+.media__title {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .media {
+    display: block;
+  }
+  .media__img-wrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

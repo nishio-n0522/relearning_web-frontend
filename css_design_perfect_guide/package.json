@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-bem": "serve -s chapter5/bem --listen 8080",
+    "start-bem": "serve -s chapter6/bem --listen 8080",
     "start-precss": "serve -s chapter5/precss --listen 8081"
   },
   "keywords": [],
