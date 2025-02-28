@@ -313,4 +313,40 @@ img {
 }
 
 .level2-heading {
+  padding-bottom: 10px;
+  border-bottom: 4px solid #e25c00;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.level3-heading {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e25c00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.level4-heading {
+  padding-left: 6px;
+  border-left: 2px solid #e25c00;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.level5-heading {
+  color: #e25c00;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.level6-heading {
+  font-size: 1.125rem;
+}
+
+.caution-text {
+  color: #d40152;
+}
+
+.note-text {
+  font-size: 0.75rem;
 }
